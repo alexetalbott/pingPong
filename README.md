@@ -6,30 +6,30 @@
 
 ## Description
 
-_This web app takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+_This web app takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:_
 
 *Numbers divisible by 3 are replaced with "ping"
 *Numbers divisible by 5 are replaced with "pong"
 *Numbers divisible by 15 are replaced with "pingpong"
 
- Check out the website in action [here](https://alexetalbott.github.io/vacay/)!_
+ _Check out the website in action [here](https://alexetalbott.github.io/vacay/)!_
 
 ## Application Specs
-*_count up to the number that is input_*
-**example input: 4**
-**example output: 1 2 3 4**
+* _counting up to the number that is input_
+  * example input: 4
+  * example output: 1 2 3 4
 
-*_displaying ping for each number that is divisible by 3_*
-**example input: 4**
-**example output: 1 2 ping 4**
+* _displaying ping for each number that is divisible by 3_
+  * example input: 4
+  * example output: 1 2 ping 4
 
-*_displaying pong if the number that is divisible by 5_*
-**example input: 5**
-**example output: 1 2 ping 4 pong**
+* _displaying pong if the number that is divisible by 5_
+  * example input: 5
+  * example output: 1 2 ping 4 pong
 
-*_displaying pingpong for each number that is divisible by 3 and 5_*
-**example input: 15**
-**example output: 1 2 ping 4 pong ping 7 ... 14 pingpong**
+* _displaying pingpong for each number that is divisible by 3 and 5_
+  * example input: 15
+  * example output: 1 2 ping 4 pong ping 7 ... 14 pingpong
 
 ## Setup/Installation Requirements
 
