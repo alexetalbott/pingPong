@@ -5,7 +5,7 @@ $(document).ready(function(){
     event.preventDefault();
     var pingPongInput = parseInt($("input#yourNumber").val());
     var counting = [];
-    for (var index = 0; index < pingPongInput; index += 1) {
+    for (var index = 0; index <= pingPongInput; index += 1) {
       if ((index % 3 === 0) && (index % 5 === 0)) {
         counting.push("PingPong");
       } else if (index % 3 === 0){
