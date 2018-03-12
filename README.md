@@ -12,7 +12,7 @@ _This web app takes a number from a user and returns a range of numbers from 1 t
 *Numbers divisible by 5 are replaced with "pong"
 *Numbers divisible by 15 are replaced with "pingpong"
 
- _Check out the website in action [here](https://alexetalbott.github.io/vacay/)!_
+ _Check out the website in action [here](https://alexetalbott.github.io/pingPong/)!_
 
 ## Application Specs
 * _counting up to the number that is input_
