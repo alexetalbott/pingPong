@@ -12,11 +12,15 @@ $(document).ready(function(){
     var pingPongInput = parseInt($("input#yourNumber").val());
     var counting = [];
     for (var index = 0; index < pingPongInput; index += 1) {
+      if (index % 3 ===0) {
+        counting.push("ping");
+      } else {
       counting.push(index);
+      };
     };
-    $(".showNumber").text(counting);
-    $("#results").show();
-  })
+  $(".showNumber").text(counting.join("\n"));
+  $("#results").show();
+});
 });
 
 // create a blank array
