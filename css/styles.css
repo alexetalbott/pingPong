@@ -1,3 +1,13 @@
-#result {
-  display: none;
+#results {
+
+}
+
+.container {
+  background-color: #CCFF99;
+}
+
+.sidebar {
+  width: 95%;
+  float: center;
+  background-color: yellow;
 }

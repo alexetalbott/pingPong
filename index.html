@@ -7,26 +7,28 @@
     <title>Ping Pong</title>
   <body>
     <div class="container">
-      <h1>Ping Pong - Let's Play!</h1>
-      <h2>Rules:</h2>
-      <p>Ping Pong will count up to your number, with the following exceptions:</p>
-        <ul>
-          <li>Numbers divisble by 3 become "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-        <ul>
-      <div id="game">
-        <form>
-          <div class="form-group">
-            <label for="yourNumber">Enter Your Number Here:</label>
-            <input id="yourNumber" type="text">
-          </div>
-          <button type="submit" class="btn">PiNgPoNg!</button>
-        </form>
-      <div id="results">
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="unstyled" id="pingResult"><span class="showNumber"></span></ul>
+      <div class="sidebar">
+        <h1>Ping Pong - Let's Play!</h1>
+        <h2>Rules:</h2>
+        <p>Ping Pong will count up to your number, with the following exceptions:</p>
+          <ul>
+            <li>Numbers divisble by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          <ul>
+        <div id="game">
+          <form>
+            <div class="form-group">
+              <label for="yourNumber">Enter Your Number Here:</label>
+              <input id="yourNumber" type="text">
+            </div>
+            <button type="submit" class="btn" style="padding:100px; border:1px solid black">PiNgPoNg!</button>
+          </form>
+        <div id="results">
+          <div class="row well">
+            <div class="col-md-6">
+              <ul class="unstyled" id="pingResult"><span class="showNumber"></span></ul>
+            </div>
           </div>
         </div>
       </div>
